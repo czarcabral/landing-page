@@ -12,6 +12,14 @@ function App() {
         >
           Chatroom App
         </a>
+        <a
+          className="App-link"
+          href="https://cabral-hero-app-react.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Hero App (React)
+        </a>
       </header>
     </div>
   );

@@ -4,8 +4,8 @@
 3. add "engines" to package.json
     ```
     "engines": {
-      "npm": "{npm -v}",
-      "node": "{node -v}"
+      "npm": "6.14.10", // {npm -v}
+      "node": "10.23.1" // {node -v}
     },
     ```
 4. on heroku.com, create new app
