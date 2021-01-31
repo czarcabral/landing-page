@@ -1,6 +1,16 @@
 ## `To create new React app`
 1. run `npx create-react-app {name of app}`
 2. create github repository
+3. add "engines" to package.json
+    ```
+    "engines": {
+      "npm": "{npm -v}",
+      "node": "{node -v}"
+    },
+    ```
+4. on heroku.com, create new app
+5. heroku -> deploy -> deployment method : github
+6. heroku -> settings -> buildpack : add buildpack https://github.com/mars/create-react-app-buildpack
 
 ### `npm start`
 
